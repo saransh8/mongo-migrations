@@ -1,0 +1,20 @@
+{
+  "name": "mongo-migrations",
+  "version": "1.0.0",
+  "description": "All mongodb commands to be run as a migration would reside here",
+  "main": "index.js",
+  "scripts": {
+    "migrations-up": "cd migrations && migrate-mongo up",
+    "migrations-down": "cd migrations && migrate-mongo down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1248.0",
+    "dotenv": "^16.0.3",
+    "migrate-mongo": "^9.0.0",
+    "mongodb": "^4.11.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  }
+}
